@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         width: '30%',
 
         padding: 15,
-        marginVertical: 10,
+        marginVertical: 5,
 
         alignItems: 'center',
         borderRadius: 5,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
 
     container_PRIMARY: {
         backgroundColor: '#3B71F3',
-        marginVertical: 80
+        marginVertical: 60
     },
 
     container_TERTIARY: {

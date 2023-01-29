@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, Image, StyleSheet, useWindowDimensions } from 'react-native';
+import { View, Text, Image, StyleSheet, useWindowDimensions, ScrollView } from 'react-native';
 import Logo from '../../assets/Logo.png';
 import CustomInput from "../components/CustomInput/CustomInput";
 import CustomButton from "../components/CustomButton/CustomButton";
@@ -27,7 +27,12 @@ const SigninScreen = () => {
         console.warn("Apple");
     };
 
+    const onSignUpPress = () => {
+        console.warn("signup");
+    };
+
     return (
+        <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.root}>
             <Image
                 source={Logo}
@@ -75,7 +80,14 @@ const SigninScreen = () => {
                 type = "TERTIARY"
             />
 
+            <CustomButton 
+                text="Don't have an account?" 
+                onPress={onSignUpPress}
+                type = "TERTIARY"
+            />
+
         </View>
+        </ScrollView>
     )
 };
 
