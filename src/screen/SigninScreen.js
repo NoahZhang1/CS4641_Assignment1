@@ -20,6 +20,7 @@ const SigninScreen = () => {
 
     const onSignInGoogle = () => {
         console.warn("google");
+        //123124312
     };
 
     const onSignInApple = () => {
