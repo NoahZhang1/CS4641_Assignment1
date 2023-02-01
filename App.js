@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Alert, Button, TextInput, View, StyleSheet, SafeAreaView } from 'react-native';
 import SigninScreen from './src/screen/SigninScreen';
+import { Amplify } from 'aws-amplify';
+import config from './src/aws-exports';
 
+Amplify.configure(config);
 // export default class App extends Component {
 //   constructor(props) {
 //     super(props);
