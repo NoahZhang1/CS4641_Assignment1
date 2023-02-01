@@ -19,8 +19,11 @@ note: please go to master branch for development
 
 The architecture of files and directories are as follows:
 
-* app/
-	* model/
+* amplify
+* assets
+* .vscode
+* src/
+	* components/
 		* *EMITTED*
 	*	static/
 		*	css/
@@ -42,12 +45,12 @@ The architecture of files and directories are as follows:
 	*	requirements.txt
 	*	utils.py
 * .gitignore
-* Dockerfile
-* Readme.md
-* config.py
-* entrypoint.sh
-* host_config
-* nginx_host
+* App.js
+* README.md
+* app.json
+* babel.config.js
+* package-lock.json
+* package.json
 
 
 ### Quick Start to Start Local Testing
