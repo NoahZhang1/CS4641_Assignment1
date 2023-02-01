@@ -62,8 +62,8 @@ const SigninScreen = () => {
             <CustomButton 
                 text="Sign In with Google" 
                 onPress={onSignInGoogle} 
-                bgColor = "#34A1Eb"
-                fgColor= "#dddddd"
+                bgColor = "#FAE9EA"
+                fgColor= "#DD4D44"
                 type = "TERTIARY"
             />
 
