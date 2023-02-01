@@ -16,6 +16,8 @@ note: please go to master branch for development
 
 	
 Note: password automatically hidden for using safe-text entry when taking screenshot
+	
 ![image](https://user-images.githubusercontent.com/41597923/215941419-536570e2-eaee-4c1c-9160-14d1e5c03067.png)
+	
 ![image](https://user-images.githubusercontent.com/41597923/215941441-8a882f8e-ab85-4084-9504-4617f6901807.png)
 
