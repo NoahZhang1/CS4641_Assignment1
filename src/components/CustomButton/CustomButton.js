@@ -2,20 +2,20 @@ import React from 'react'
 import { View, Text, StyleSheet, Pressable } from 'react-native'
 
 
-const CustomButton = ({ onPress, text, type='PRIMARY', bgColor, fgColor }) => {
+const CustomButton = ({ onPress, text, type = 'PRIMARY', bgColor, fgColor }) => {
     return (
         <Pressable
             onPress={onPress}
-            style= {[
+            style={[
                 styles.container,
                 styles[`container_${type}`],
-                bgColor ? {backgroundColor: bgColor} : {}
-                ]}>
-            <Text 
-                style = {[
+                bgColor ? { backgroundColor: bgColor } : {}
+            ]}>
+            <Text
+                style={[
                     styles.text,
                     styles[`text_${type}`],
-                    fgColor ? {color : fgColor} : {},
+                    fgColor ? { color: fgColor } : {},
                 ]}
             >
                 {text}
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         width: '30%',
 
         padding: 15,
-        marginVertical: 10,
+        marginVertical: 5,
 
         alignItems: 'center',
         borderRadius: 5,
@@ -40,11 +40,11 @@ const styles = StyleSheet.create({
 
     container_PRIMARY: {
         backgroundColor: '#3B71F3',
-        marginVertical: 80
+        marginVertical: 60
     },
 
     container_TERTIARY: {
-    
+
         width: '100%'
     },
 
