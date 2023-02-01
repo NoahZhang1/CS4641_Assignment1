@@ -23,27 +23,13 @@ The architecture of files and directories are as follows:
 * assets
 * .vscode
 * src/
-	* components/
-		* *EMITTED*
-	*	static/
-		*	css/
-		*	img/
-		* js/
-		* favicon.ico	
-	*	templates/
-		*	C-Popup.html
-        *	Cpp-Popup.html
-        *	CS-Popup.html
-        *	index.html
-        *	Java-Popip.html
-        *	JS-Popup.html
-        *	Python-Popup.html
-        *	writer_home.html
-        *	write-your-code-with-AI.html
-	*	main.py
-    *	popup_main.py
-	*	requirements.txt
-	*	utils.py
+	*	components/
+		*	CustonButton/
+			* CustomButton.js
+			* index.js
+		*	CustomInput/
+			* CustomInput.js
+			* index.js
 * .gitignore
 * App.js
 * README.md
