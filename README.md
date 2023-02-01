@@ -45,7 +45,7 @@ The architecture of files and directories are as follows:
 	
 `npx expo start`
 
-
+### Sample Output
 	
 Note: password automatically hidden for using safe-text entry when taking screenshot
 	
